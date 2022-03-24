@@ -1,4 +1,5 @@
 import User from "./components/User";
+import Navbar from "./components/Navbar";
 import './App.css';
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
   const isAuth = true;
   return (
     <div className="App">
+      <Navbar/>
+      <hr/>
       <h4 style= {{color:"blue",fontSize:"30px"}}>React CSS</h4>
       <alert className="alert alert-danger">We inclueded Bootstrap in our project.</alert>
       <hr/>
