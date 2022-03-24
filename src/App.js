@@ -6,6 +6,9 @@ function App() {
   const isAuth = true;
   return (
     <div className="App">
+      <h4 style= {{color:"blue",fontSize:"30px"}}>React CSS</h4>
+      <alert className="alert alert-danger">We inclueded Bootstrap in our project.</alert>
+      <hr/>
       <h4>App Component</h4>  
       <User/>
       <hr/>
