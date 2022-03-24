@@ -1,3 +1,4 @@
+import User from "./components/User";
 import './App.css';
 
 function App() {
@@ -5,15 +6,18 @@ function App() {
   const isAuth = true;
   return (
     <div className="App">
-      { 1 + 1 }
-      <h4>{"Fatih".toUpperCase()}</h4>
-      <h4>{test}</h4>
+      <h4>App Component</h4>  
+      <User/>
+      <hr/>
       <div>
         {
           isAuth ? <p>Kullanıcı Kayıtlı</p>
-          : null
+            : null
         }
       </div>
+      <h4>{test}</h4>
+      <h4>{"Fatih".toUpperCase()}</h4>
+      {1 + 1}
     </div>
   );
 }
